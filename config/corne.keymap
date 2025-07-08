@@ -71,7 +71,7 @@
 
         ColmakDH {
             bindings = <
-&kp ESCAPE  &kp Q             &kp W            &kp F         &kp P              &kp B      &kp J           &kp L               &kp Y         &kp O             &kp APOSTROPHE     &to 0
+&kp ESCAPE  &kp Q             &kp W            &kp F         &kp P              &kp B      &kp J           &kp L               &kp U         &kp Y             &kp APOSTROPHE     &to 0
 &trans      &HML LEFT_META A  &HML LEFT_ALT R  &HML LCTRL S  &HML LEFT_SHIFT T  &kp G      &kp M           &HMR RIGHT_SHIFT N  &HMR RCTRL E  &HMR RIGHT_ALT I  &HMR RIGHT_META O  &trans
 &trans      &kp Z             &kp X            &kp C         &kp D              &kp V      &kp K           &kp H               &kp COMMA     &kp DOT           &kp FSLH           &to 2
                                                &kpmo 3 ESC   &kpmo 4 SPACE      &kp TAB    &kpmo 5 RETURN  &kpmo 6 BACKSPACE   &kp DEL
