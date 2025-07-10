@@ -62,7 +62,7 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q             &kp W            &kp E           &kp R              &kp T      &kp Y           &kp U               &kp I         &kp O             &kp P                 &trans
+&kp ESCAPE  &kp Q             &kp W            &kp E           &kp R              &kp T      &kp Y           &kp U               &kp I         &kp O             &kp P                 &none
 &trans      &HML LEFT_META A  &HML LEFT_ALT S  &HML LCTRL D    &HML LEFT_SHIFT F  &kp G      &kp H           &HMR RIGHT_SHIFT J  &HMR RCTRL K  &HMR RIGHT_ALT L  &HMR RIGHT_META SEMI  &to 1
 &trans      &kp Z             &kp X            &kp C           &kp V              &kp B      &kp N           &kp M               &kp COMMA     &kp DOT           &kp FSLH              &to 2
                                                &kpmo 3 ESCAPE  &kpmo 4 SPACE      &kp TAB    &kpmo 5 RETURN  &kpmo 6 BACKSPACE   &kp DELETE
@@ -72,7 +72,7 @@
         ColmakDH {
             bindings = <
 &kp ESCAPE  &kp Q             &kp W            &kp F         &kp P              &kp B      &kp J           &kp L               &kp U         &kp Y             &kp APOSTROPHE     &to 0
-&trans      &HML LEFT_META A  &HML LEFT_ALT R  &HML LCTRL S  &HML LEFT_SHIFT T  &kp G      &kp M           &HMR RIGHT_SHIFT N  &HMR RCTRL E  &HMR RIGHT_ALT I  &HMR RIGHT_META O  &trans
+&trans      &HML LEFT_META A  &HML LEFT_ALT R  &HML LCTRL S  &HML LEFT_SHIFT T  &kp G      &kp M           &HMR RIGHT_SHIFT N  &HMR RCTRL E  &HMR RIGHT_ALT I  &HMR RIGHT_META O  &none
 &trans      &kp Z             &kp X            &kp C         &kp D              &kp V      &kp K           &kp H               &kp COMMA     &kp DOT           &kp FSLH           &to 2
                                                &kpmo 3 ESC   &kpmo 4 SPACE      &kp TAB    &kpmo 5 RETURN  &kpmo 6 BACKSPACE   &kp DEL
             >;
@@ -80,10 +80,10 @@
 
         Games {
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R      &kp T      &trans  &trans  &trans  &trans  &trans  &to 0
-&kp TAB         &kp A  &kp S  &kp D      &kp F      &kp G      &trans  &trans  &trans  &trans  &trans  &to 1
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V      &kp B      &trans  &trans  &trans  &trans  &trans  &trans
-                              &kp LCTRL  &kp SPACE  &kp TAB    &trans  &trans  &trans
+&kp ESC         &kp Q  &kp W  &kp E      &kp R      &kp T       &kp Y    &kp U     &kp I      &kp O    &kp P     &to 0
+&kp TAB         &kp A  &kp S  &kp D      &kp F      &kp G       &kp H    &kp J     &kp K      &kp L    &kp SEMI  &to 1
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V      &kp B       &kp N    &kp M     &kp COMMA  &kp DOT  &kp FSLH  &none
+                              &kp LCTRL  &kp SPACE  &kp LALT    &kp RET  &kp BSPC  &kp DEL
             >;
         };
 
