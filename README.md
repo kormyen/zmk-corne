@@ -1,6 +1,23 @@
 # Corne Keyboard Setup
 Wireless Corne with Choc switches running on ZMK.
 
+### Guide
+
+#### Edit 
+- Edit layout with GUI [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/), and save changes.
+
+#### Get firmware 
+- Open this repo's [Github Actions](https://github.com/kormyen/zmk-corne/actions/). 
+- Either click the latest "Build ZMK firmware" action that has run, or wait for your latest change to finish automatically building.
+- At the bottom of the page under the "Artifacts produced during runtime" section, click "firmware". This will download a zip file with the updated firmware for the ZMK keyboards.
+
+#### Install firmware 
+- Plug the keyboards into your PC via USB.
+- Double press the reset button that is next to the on/off switch - this changes the keyboard into bootloader mode and shows up as a USB thumbdrive on your PC.
+- Unzip the "firmware.zip" folder, there should be a firmware file for the left keyboard, and one for the right keyboard.
+- Drag the appropriate left or right firmware file into the keyboard drive.
+- The file transfer may say that it failed but the keyboard will automatically reset and reconnect and be running the new firmware.
+
 ### Sources
 
 - [Wireless Corne](https://docs.typeractive.xyz/build-guides/corne-wireless) is the official documentation for this keyboard.
